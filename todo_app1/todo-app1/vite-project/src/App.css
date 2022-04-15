@@ -1,0 +1,92 @@
+.App {
+  margin-top: 100px;
+  text-align: center;
+  margin:auto;
+  width:300px;
+
+}
+.shadow{
+  margin-top: 50px;
+}
+.shadow>div{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.input-todo{
+  margin-bottom: 50px;
+}
+.Sajana_todo{
+ /* border: 3px solid red; */
+  display: flex;
+  margin:10px;
+  width:200px;
+  justify-content: space-between;
+}
+/* .Sajana_todo>div{ */
+  /* border: 3px solid blue; */
+  /* margin-left: 40px;
+
+} */
+
+/* .Sajana_todo>div:nth-child(2){
+
+ height:20px;
+ width: 20px;
+ border-radius: 50%;
+ border: 1px solid teal;
+  
+} */
+.first{
+  height:20px;
+ width: 20px;
+ border-radius: 50%;
+ border: 5px solid teal;
+ 
+
+}
+.second{
+  height:20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 5px solid red;
+
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
