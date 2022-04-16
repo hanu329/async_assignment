@@ -4,10 +4,6 @@ import "../App.css"
 export const TodoItem = ({getTodo, handleClass})=>{
    
     const [title, settext] = useState([])
-  
-        
- 
-
     return <div >
         
         <div className="input-todo">
